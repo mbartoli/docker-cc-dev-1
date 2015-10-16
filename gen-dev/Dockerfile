@@ -22,7 +22,7 @@ RUN apt-get -y install \
 	--no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/*
 
-RUN pip install -u \
+RUN pip install -U \
 	numpy \
 	scipy \
 	matplotlib \
